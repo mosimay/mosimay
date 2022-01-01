@@ -1,0 +1,148 @@
+/* COLOR PALLETE OF THE WEBSITE */
+:root {
+  --dd-cyan-blue: #22272f;
+  --d-cyan-blue: #2f3541;
+  --light-cyan-blue: #5e81ac;
+  --light-indigo: #edf2ff;
+}
+/* RESET AND GENERAL STYLES */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  line-height: 1.5;
+  background-color: var(--dd-cyan-blue);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.navbar {
+  background-color: var(--d-cyan-blue);
+}
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* flex box */
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li,
+.logo {
+  color: var(--light-indigo);
+  font-size: 20px;
+}
+.logo {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: var(--light-indigo);
+}
+nav {
+  width: 40%;
+}
+ul {
+  list-style: none;
+}
+ul a:hover {
+  border-bottom: 2px solid var(--light-indigo);
+}
+p {
+  color: var(--light-cyan-blue);
+  font-size: 50px;
+}
+span {
+  color: var(--light-indigo);
+}
+.hero .container {
+  width: 70%;
+  height: 50%;
+}
+.hero {
+  height: 70%;
+  margin: 100px auto 0 auto;
+}
+.show-case {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-bottom: 300px;
+}
+.sc-item {
+  background-color: var(--light-cyan-blue);
+  border-radius: 15px;
+  width: 25%;
+  height: 80px;
+  margin: 10px;
+}
+.sc-item .container {
+  background-color: var(--d-cyan-blue);
+  width: 98%;
+  margin-right: 0;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.sc-item p {
+  font-size: 40px;
+}
+.sc-header {
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+  font-size: 30px;
+}
+.sm-item {
+  width: 40px;
+  height: 40px;
+}
+.get-in-touch .container {
+  background-color: var(--d-cyan-blue);
+  width: 15%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
